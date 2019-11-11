@@ -1314,6 +1314,10 @@ static void _generate_po2_mipmap(const Component *p_src, Component *p_dst, uint3
 				renormalize_func(dst_ptr);
 			}
 
+			if (roughness) {
+
+			}
+
 			dst_ptr += CC;
 			rup_ptr += right_step * 2;
 			rdown_ptr += right_step * 2;
